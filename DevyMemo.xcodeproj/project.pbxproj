@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311179BD24B36FF900989B53 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311179BC24B36FF900989B53 /* ComposeView.swift */; };
+		311179BF24B3700300989B53 /* ComposeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311179BE24B3700300989B53 /* ComposeVC.swift */; };
+		311179C324B3755600989B53 /* UIAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311179C224B3755600989B53 /* UIAlertViewController.swift */; };
+		311179C524B3838D00989B53 /* MemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311179C424B3838D00989B53 /* MemoDetailView.swift */; };
+		311179C724B383A000989B53 /* MemoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311179C624B383A000989B53 /* MemoDetailVC.swift */; };
+		31B802EE24B1CE7E00A97FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B802ED24B1CE7E00A97FCE /* AppDelegate.swift */; };
+		31B802F224B1CE7E00A97FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B802F124B1CE7E00A97FCE /* ViewController.swift */; };
+		31B802F524B1CE7E00A97FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B802F324B1CE7E00A97FCE /* Main.storyboard */; };
+		31B802F824B1CE7E00A97FCE /* DevyMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B802F624B1CE7E00A97FCE /* DevyMemo.xcdatamodeld */; };
+		31B802FA24B1CE7F00A97FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B802F924B1CE7F00A97FCE /* Assets.xcassets */; };
+		31B802FD24B1CE7F00A97FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B802FB24B1CE7F00A97FCE /* LaunchScreen.storyboard */; };
+		31B8030524B1D0A400A97FCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8030424B1D0A400A97FCE /* SceneDelegate.swift */; };
+		31B8030B24B1DF3400A97FCE /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8030A24B1DF3400A97FCE /* MemoListView.swift */; };
+		31B8031024B1DFAB00A97FCE /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8030F24B1DFAB00A97FCE /* UIColor.swift */; };
+		31B8031224B1E23800A97FCE /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8031124B1E23800A97FCE /* CGFloat.swift */; };
+		31B8031424B1E2BD00A97FCE /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8031324B1E2BD00A97FCE /* Int.swift */; };
+		31B8031F24B1E8B900A97FCE /* NanumSquareB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031624B1E8B800A97FCE /* NanumSquareB.ttf */; };
+		31B8032024B1E8B900A97FCE /* SW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031724B1E8B800A97FCE /* SW.ttf */; };
+		31B8032124B1E8B900A97FCE /* NanumSquareL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031824B1E8B900A97FCE /* NanumSquareL.ttf */; };
+		31B8032224B1E8B900A97FCE /* NanumSquareEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031924B1E8B900A97FCE /* NanumSquareEB.ttf */; };
+		31B8032324B1E8B900A97FCE /* BMJUA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031A24B1E8B900A97FCE /* BMJUA.ttf */; };
+		31B8032424B1E8B900A97FCE /* NanumSquareR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031B24B1E8B900A97FCE /* NanumSquareR.ttf */; };
+		31B8032524B1E8B900A97FCE /* JalnanOTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031C24B1E8B900A97FCE /* JalnanOTF.otf */; };
+		31B8032624B1E8B900A97FCE /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031D24B1E8B900A97FCE /* GmarketSansTTFBold.ttf */; };
+		31B8032724B1E8B900A97FCE /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B8031E24B1E8B900A97FCE /* GmarketSansTTFMedium.ttf */; };
+		31B8032924B1EB5300A97FCE /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8032824B1EB5300A97FCE /* MemoListVC.swift */; };
+		31B8032C24B2063C00A97FCE /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8032B24B2063C00A97FCE /* MainModel.swift */; };
+		31B8032E24B2098800A97FCE /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8032D24B2098800A97FCE /* UINavigationBar.swift */; };
+		31B8033024B20A9200A97FCE /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8032F24B20A9200A97FCE /* MemoListCell.swift */; };
+		D18AAC9B8146770978093544 /* Pods_DevyMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B50B0E1E4C017CD702889F6 /* Pods_DevyMemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CCA74B50947785EBF29FB10 /* Pods-DevyMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevyMemo.debug.xcconfig"; path = "Target Support Files/Pods-DevyMemo/Pods-DevyMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2B50B0E1E4C017CD702889F6 /* Pods_DevyMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevyMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311179BC24B36FF900989B53 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		311179BE24B3700300989B53 /* ComposeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeVC.swift; sourceTree = "<group>"; };
+		311179C224B3755600989B53 /* UIAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewController.swift; sourceTree = "<group>"; };
+		311179C424B3838D00989B53 /* MemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailView.swift; sourceTree = "<group>"; };
+		311179C624B383A000989B53 /* MemoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailVC.swift; sourceTree = "<group>"; };
+		31B802EA24B1CE7E00A97FCE /* DevyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B802ED24B1CE7E00A97FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31B802F124B1CE7E00A97FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31B802F424B1CE7E00A97FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31B802F724B1CE7E00A97FCE /* DevyMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DevyMemo.xcdatamodel; sourceTree = "<group>"; };
+		31B802F924B1CE7F00A97FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B802FC24B1CE7F00A97FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31B802FE24B1CE7F00A97FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B8030424B1D0A400A97FCE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31B8030A24B1DF3400A97FCE /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		31B8030F24B1DFAB00A97FCE /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		31B8031124B1E23800A97FCE /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		31B8031324B1E2BD00A97FCE /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		31B8031624B1E8B800A97FCE /* NanumSquareB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareB.ttf; sourceTree = "<group>"; };
+		31B8031724B1E8B800A97FCE /* SW.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SW.ttf; sourceTree = "<group>"; };
+		31B8031824B1E8B900A97FCE /* NanumSquareL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareL.ttf; sourceTree = "<group>"; };
+		31B8031924B1E8B900A97FCE /* NanumSquareEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareEB.ttf; sourceTree = "<group>"; };
+		31B8031A24B1E8B900A97FCE /* BMJUA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA.ttf; sourceTree = "<group>"; };
+		31B8031B24B1E8B900A97FCE /* NanumSquareR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.ttf; sourceTree = "<group>"; };
+		31B8031C24B1E8B900A97FCE /* JalnanOTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JalnanOTF.otf; sourceTree = "<group>"; };
+		31B8031D24B1E8B900A97FCE /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
+		31B8031E24B1E8B900A97FCE /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		31B8032824B1EB5300A97FCE /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		31B8032B24B2063C00A97FCE /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		31B8032D24B2098800A97FCE /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		31B8032F24B20A9200A97FCE /* MemoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
+		FF6587B591E4E6C8CFE4C0F1 /* Pods-DevyMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevyMemo.release.xcconfig"; path = "Target Support Files/Pods-DevyMemo/Pods-DevyMemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B802E724B1CE7E00A97FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18AAC9B8146770978093544 /* Pods_DevyMemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311179B224B3686E00989B53 /* MemoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				311179B424B3697600989B53 /* Controller */,
+				311179B324B3697100989B53 /* View */,
+			);
+			path = MemoDetail;
+			sourceTree = "<group>";
+		};
+		311179B324B3697100989B53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				311179C424B3838D00989B53 /* MemoDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		311179B424B3697600989B53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				311179C624B383A000989B53 /* MemoDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		311179B924B36FD900989B53 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				311179BB24B36FE800989B53 /* Controller */,
+				311179BA24B36FE300989B53 /* View */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		311179BA24B36FE300989B53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				311179BC24B36FF900989B53 /* ComposeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		311179BB24B36FE800989B53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				311179BE24B3700300989B53 /* ComposeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31B802E124B1CE7E00A97FCE = {
+			isa = PBXGroup;
+			children = (
+				31B802EC24B1CE7E00A97FCE /* DevyMemo */,
+				31B802EB24B1CE7E00A97FCE /* Products */,
+				FD8109D489AB44C26BCD792B /* Pods */,
+				F38BF39594B2A91B5ED29344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31B802EB24B1CE7E00A97FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B802EA24B1CE7E00A97FCE /* DevyMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B802EC24B1CE7E00A97FCE /* DevyMemo */ = {
+			isa = PBXGroup;
+			children = (
+				311179B224B3686E00989B53 /* MemoDetail */,
+				311179B924B36FD900989B53 /* Compose */,
+				31B8030624B1DCB300A97FCE /* Main */,
+				31B8032A24B2060600A97FCE /* MainModel */,
+				31B8031524B1E89F00A97FCE /* Fonts */,
+				31B8030E24B1DF8100A97FCE /* Extensions */,
+				31B802ED24B1CE7E00A97FCE /* AppDelegate.swift */,
+				31B8030424B1D0A400A97FCE /* SceneDelegate.swift */,
+				31B802F124B1CE7E00A97FCE /* ViewController.swift */,
+				31B802F324B1CE7E00A97FCE /* Main.storyboard */,
+				31B802F924B1CE7F00A97FCE /* Assets.xcassets */,
+				31B802FB24B1CE7F00A97FCE /* LaunchScreen.storyboard */,
+				31B802FE24B1CE7F00A97FCE /* Info.plist */,
+				31B802F624B1CE7E00A97FCE /* DevyMemo.xcdatamodeld */,
+			);
+			path = DevyMemo;
+			sourceTree = "<group>";
+		};
+		31B8030624B1DCB300A97FCE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				31B8030924B1DF2400A97FCE /* Cell */,
+				31B8030824B1DCD500A97FCE /* Controller */,
+				31B8030724B1DCD100A97FCE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		31B8030724B1DCD100A97FCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31B8030A24B1DF3400A97FCE /* MemoListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31B8030824B1DCD500A97FCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31B8032824B1EB5300A97FCE /* MemoListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31B8030924B1DF2400A97FCE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				31B8032F24B20A9200A97FCE /* MemoListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		31B8030E24B1DF8100A97FCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31B8030F24B1DFAB00A97FCE /* UIColor.swift */,
+				31B8031124B1E23800A97FCE /* CGFloat.swift */,
+				31B8031324B1E2BD00A97FCE /* Int.swift */,
+				31B8032D24B2098800A97FCE /* UINavigationBar.swift */,
+				311179C224B3755600989B53 /* UIAlertViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31B8031524B1E89F00A97FCE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				31B8031A24B1E8B900A97FCE /* BMJUA.ttf */,
+				31B8031D24B1E8B900A97FCE /* GmarketSansTTFBold.ttf */,
+				31B8031E24B1E8B900A97FCE /* GmarketSansTTFMedium.ttf */,
+				31B8031C24B1E8B900A97FCE /* JalnanOTF.otf */,
+				31B8031624B1E8B800A97FCE /* NanumSquareB.ttf */,
+				31B8031924B1E8B900A97FCE /* NanumSquareEB.ttf */,
+				31B8031824B1E8B900A97FCE /* NanumSquareL.ttf */,
+				31B8031B24B1E8B900A97FCE /* NanumSquareR.ttf */,
+				31B8031724B1E8B800A97FCE /* SW.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		31B8032A24B2060600A97FCE /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				31B8032B24B2063C00A97FCE /* MainModel.swift */,
+			);
+			path = MainModel;
+			sourceTree = "<group>";
+		};
+		F38BF39594B2A91B5ED29344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B50B0E1E4C017CD702889F6 /* Pods_DevyMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD8109D489AB44C26BCD792B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA74B50947785EBF29FB10 /* Pods-DevyMemo.debug.xcconfig */,
+				FF6587B591E4E6C8CFE4C0F1 /* Pods-DevyMemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B802E924B1CE7E00A97FCE /* DevyMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B8030124B1CE7F00A97FCE /* Build configuration list for PBXNativeTarget "DevyMemo" */;
+			buildPhases = (
+				50DB8B818408607A975E8871 /* [CP] Check Pods Manifest.lock */,
+				31B802E624B1CE7E00A97FCE /* Sources */,
+				31B802E724B1CE7E00A97FCE /* Frameworks */,
+				31B802E824B1CE7E00A97FCE /* Resources */,
+				6E49A04A414AE44A67312F86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevyMemo;
+			productName = DevyMemo;
+			productReference = 31B802EA24B1CE7E00A97FCE /* DevyMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B802E224B1CE7E00A97FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = SooAhJeon;
+				TargetAttributes = {
+					31B802E924B1CE7E00A97FCE = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 31B802E524B1CE7E00A97FCE /* Build configuration list for PBXProject "DevyMemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31B802E124B1CE7E00A97FCE;
+			productRefGroup = 31B802EB24B1CE7E00A97FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31B802E924B1CE7E00A97FCE /* DevyMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B802E824B1CE7E00A97FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B8032024B1E8B900A97FCE /* SW.ttf in Resources */,
+				31B802FD24B1CE7F00A97FCE /* LaunchScreen.storyboard in Resources */,
+				31B802FA24B1CE7F00A97FCE /* Assets.xcassets in Resources */,
+				31B8031F24B1E8B900A97FCE /* NanumSquareB.ttf in Resources */,
+				31B8032424B1E8B900A97FCE /* NanumSquareR.ttf in Resources */,
+				31B8032324B1E8B900A97FCE /* BMJUA.ttf in Resources */,
+				31B8032124B1E8B900A97FCE /* NanumSquareL.ttf in Resources */,
+				31B8032624B1E8B900A97FCE /* GmarketSansTTFBold.ttf in Resources */,
+				31B8032524B1E8B900A97FCE /* JalnanOTF.otf in Resources */,
+				31B8032224B1E8B900A97FCE /* NanumSquareEB.ttf in Resources */,
+				31B802F524B1CE7E00A97FCE /* Main.storyboard in Resources */,
+				31B8032724B1E8B900A97FCE /* GmarketSansTTFMedium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50DB8B818408607A975E8871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevyMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E49A04A414AE44A67312F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevyMemo/Pods-DevyMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevyMemo/Pods-DevyMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevyMemo/Pods-DevyMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B802E624B1CE7E00A97FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311179BD24B36FF900989B53 /* ComposeView.swift in Sources */,
+				311179C324B3755600989B53 /* UIAlertViewController.swift in Sources */,
+				311179C724B383A000989B53 /* MemoDetailVC.swift in Sources */,
+				31B8031224B1E23800A97FCE /* CGFloat.swift in Sources */,
+				31B802F224B1CE7E00A97FCE /* ViewController.swift in Sources */,
+				31B8033024B20A9200A97FCE /* MemoListCell.swift in Sources */,
+				31B8031024B1DFAB00A97FCE /* UIColor.swift in Sources */,
+				31B802EE24B1CE7E00A97FCE /* AppDelegate.swift in Sources */,
+				31B8032924B1EB5300A97FCE /* MemoListVC.swift in Sources */,
+				31B802F824B1CE7E00A97FCE /* DevyMemo.xcdatamodeld in Sources */,
+				311179BF24B3700300989B53 /* ComposeVC.swift in Sources */,
+				31B8031424B1E2BD00A97FCE /* Int.swift in Sources */,
+				311179C524B3838D00989B53 /* MemoDetailView.swift in Sources */,
+				31B8030B24B1DF3400A97FCE /* MemoListView.swift in Sources */,
+				31B8032C24B2063C00A97FCE /* MainModel.swift in Sources */,
+				31B8032E24B2098800A97FCE /* UINavigationBar.swift in Sources */,
+				31B8030524B1D0A400A97FCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31B802F324B1CE7E00A97FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B802F424B1CE7E00A97FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31B802FB24B1CE7F00A97FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B802FC24B1CE7F00A97FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31B802FF24B1CE7F00A97FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31B8030024B1CE7F00A97FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31B8030224B1CE7F00A97FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA74B50947785EBF29FB10 /* Pods-DevyMemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNHX5B578D;
+				INFOPLIST_FILE = DevyMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevyMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B8030324B1CE7F00A97FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6587B591E4E6C8CFE4C0F1 /* Pods-DevyMemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNHX5B578D;
+				INFOPLIST_FILE = DevyMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevyMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B802E524B1CE7E00A97FCE /* Build configuration list for PBXProject "DevyMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B802FF24B1CE7F00A97FCE /* Debug */,
+				31B8030024B1CE7F00A97FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B8030124B1CE7F00A97FCE /* Build configuration list for PBXNativeTarget "DevyMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B8030224B1CE7F00A97FCE /* Debug */,
+				31B8030324B1CE7F00A97FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31B802F624B1CE7E00A97FCE /* DevyMemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31B802F724B1CE7E00A97FCE /* DevyMemo.xcdatamodel */,
+			);
+			currentVersion = 31B802F724B1CE7E00A97FCE /* DevyMemo.xcdatamodel */;
+			path = DevyMemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31B802E224B1CE7E00A97FCE /* Project object */;
+}

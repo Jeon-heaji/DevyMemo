@@ -1,0 +1,6 @@
+framework module Pods_DevyMemo {
+  umbrella header "Pods-DevyMemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
